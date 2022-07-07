@@ -8,22 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		99220DE92876C7E20002B589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220DE82876C7E20002B589 /* AppDelegate.swift */; };
-		99220DEB2876C7E20002B589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220DEA2876C7E20002B589 /* SceneDelegate.swift */; };
 		99220DED2876C7E20002B589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220DEC2876C7E20002B589 /* ViewController.swift */; };
-		99220DF02876C7E20002B589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99220DEE2876C7E20002B589 /* Main.storyboard */; };
 		99220DF22876C7E30002B589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99220DF12876C7E30002B589 /* Assets.xcassets */; };
 		99220DF52876C7E30002B589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99220DF32876C7E30002B589 /* LaunchScreen.storyboard */; };
+		99220DFE2876C84B0002B589 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220DFD2876C84B0002B589 /* MainTabBarController.swift */; };
+		99220E042876C8BA0002B589 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E032876C8BA0002B589 /* User.swift */; };
+		99220E062876C8CF0002B589 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E052876C8CF0002B589 /* Post.swift */; };
+		99220E082876C8F20002B589 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E072876C8F20002B589 /* Tag.swift */; };
+		99220E0B2876C9420002B589 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E0A2876C9420002B589 /* RxBlocking */; };
+		99220E0D2876C9420002B589 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E0C2876C9420002B589 /* RxCocoa */; };
+		99220E0F2876C9420002B589 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E0E2876C9420002B589 /* RxRelay */; };
+		99220E112876C9420002B589 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E102876C9420002B589 /* RxSwift */; };
+		99220E142876C9550002B589 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E132876C9550002B589 /* SnapKit */; };
+		99220E172876C9830002B589 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E162876C9830002B589 /* Realm */; };
+		99220E192876C9830002B589 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99220E182876C9830002B589 /* RealmSwift */; };
+		99220E1B2876C9A80002B589 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E1A2876C9A80002B589 /* NewsViewModel.swift */; };
+		99220E1D2876C9B20002B589 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E1C2876C9B20002B589 /* UserViewModel.swift */; };
+		99220E1F2876C9BB0002B589 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E1E2876C9BB0002B589 /* AuthViewModel.swift */; };
+		99220E212876C9CA0002B589 /* NewsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E202876C9CA0002B589 /* NewsRepository.swift */; };
+		99220E232876C9D40002B589 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E222876C9D40002B589 /* UserRepository.swift */; };
+		99220E252876C9DC0002B589 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E242876C9DC0002B589 /* AuthRepository.swift */; };
+		99220E292876CA160002B589 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E282876CA160002B589 /* NewsViewController.swift */; };
+		99220E2B2876CA200002B589 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E2A2876CA200002B589 /* ProfileViewController.swift */; };
+		99220E2D2876CA2E0002B589 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E2C2876CA2E0002B589 /* LoginViewController.swift */; };
+		99220E2F2876CA380002B589 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E2E2876CA380002B589 /* RegistrationViewController.swift */; };
+		99220E312876CA580002B589 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E302876CA580002B589 /* AppState.swift */; };
+		99220E342876CC550002B589 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E332876CC550002B589 /* NewsListView.swift */; };
+		99220E362876CCAB0002B589 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E352876CCAB0002B589 /* NewsTableViewCell.swift */; };
+		99220E382876CD660002B589 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E372876CD660002B589 /* TagsView.swift */; };
+		99220E3B2876D2B90002B589 /* e_UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E3A2876D2B90002B589 /* e_UIImageView.swift */; };
+		99220E3E2876D9A90002B589 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99220E3D2876D9A90002B589 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99220DE52876C7E20002B589 /* NewsRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220DE82876C7E20002B589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99220DEA2876C7E20002B589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		99220DEC2876C7E20002B589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99220DEF2876C7E20002B589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99220DF12876C7E30002B589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99220DF42876C7E30002B589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99220DF62876C7E30002B589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99220DFD2876C84B0002B589 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		99220E032876C8BA0002B589 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		99220E052876C8CF0002B589 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		99220E072876C8F20002B589 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		99220E1A2876C9A80002B589 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		99220E1C2876C9B20002B589 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		99220E1E2876C9BB0002B589 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		99220E202876C9CA0002B589 /* NewsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRepository.swift; sourceTree = "<group>"; };
+		99220E222876C9D40002B589 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		99220E242876C9DC0002B589 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		99220E282876CA160002B589 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		99220E2A2876CA200002B589 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		99220E2C2876CA2E0002B589 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99220E2E2876CA380002B589 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		99220E302876CA580002B589 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		99220E332876CC550002B589 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		99220E352876CCAB0002B589 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		99220E372876CD660002B589 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		99220E3A2876D2B90002B589 /* e_UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_UIImageView.swift; sourceTree = "<group>"; };
+		99220E3D2876D9A90002B589 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99220E172876C9830002B589 /* Realm in Frameworks */,
+				99220E0F2876C9420002B589 /* RxRelay in Frameworks */,
+				99220E192876C9830002B589 /* RealmSwift in Frameworks */,
+				99220E0D2876C9420002B589 /* RxCocoa in Frameworks */,
+				99220E112876C9420002B589 /* RxSwift in Frameworks */,
+				99220E0B2876C9420002B589 /* RxBlocking in Frameworks */,
+				99220E142876C9550002B589 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,14 +107,112 @@
 			isa = PBXGroup;
 			children = (
 				99220DE82876C7E20002B589 /* AppDelegate.swift */,
-				99220DEA2876C7E20002B589 /* SceneDelegate.swift */,
+				99220E302876CA580002B589 /* AppState.swift */,
+				99220DFC2876C8290002B589 /* View */,
+				99220E002876C8710002B589 /* ViewModel */,
+				99220E022876C8900002B589 /* Repository */,
+				99220E012876C8840002B589 /* Model */,
 				99220DEC2876C7E20002B589 /* ViewController.swift */,
-				99220DEE2876C7E20002B589 /* Main.storyboard */,
 				99220DF12876C7E30002B589 /* Assets.xcassets */,
+				99220E392876D2A80002B589 /* Extensions */,
 				99220DF32876C7E30002B589 /* LaunchScreen.storyboard */,
 				99220DF62876C7E30002B589 /* Info.plist */,
 			);
 			path = NewsRx;
+			sourceTree = "<group>";
+		};
+		99220DFC2876C8290002B589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99220DFD2876C84B0002B589 /* MainTabBarController.swift */,
+				99220E272876C9F70002B589 /* Auth */,
+				99220DFF2876C85E0002B589 /* News */,
+				99220E262876C9E50002B589 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99220DFF2876C85E0002B589 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				99220E322876CC3E0002B589 /* Subviews */,
+				99220E282876CA160002B589 /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		99220E002876C8710002B589 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99220E1E2876C9BB0002B589 /* AuthViewModel.swift */,
+				99220E1A2876C9A80002B589 /* NewsViewModel.swift */,
+				99220E1C2876C9B20002B589 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99220E012876C8840002B589 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99220E032876C8BA0002B589 /* User.swift */,
+				99220E052876C8CF0002B589 /* Post.swift */,
+				99220E072876C8F20002B589 /* Tag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99220E022876C8900002B589 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				99220E242876C9DC0002B589 /* AuthRepository.swift */,
+				99220E202876C9CA0002B589 /* NewsRepository.swift */,
+				99220E222876C9D40002B589 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		99220E262876C9E50002B589 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				99220E3C2876D9890002B589 /* Subviews */,
+				99220E2A2876CA200002B589 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		99220E272876C9F70002B589 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				99220E2C2876CA2E0002B589 /* LoginViewController.swift */,
+				99220E2E2876CA380002B589 /* RegistrationViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		99220E322876CC3E0002B589 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				99220E332876CC550002B589 /* NewsListView.swift */,
+				99220E352876CCAB0002B589 /* NewsTableViewCell.swift */,
+				99220E372876CD660002B589 /* TagsView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		99220E392876D2A80002B589 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99220E3A2876D2B90002B589 /* e_UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99220E3C2876D9890002B589 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				99220E3D2876D9A90002B589 /* UserView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +231,15 @@
 			dependencies = (
 			);
 			name = NewsRx;
+			packageProductDependencies = (
+				99220E0A2876C9420002B589 /* RxBlocking */,
+				99220E0C2876C9420002B589 /* RxCocoa */,
+				99220E0E2876C9420002B589 /* RxRelay */,
+				99220E102876C9420002B589 /* RxSwift */,
+				99220E132876C9550002B589 /* SnapKit */,
+				99220E162876C9830002B589 /* Realm */,
+				99220E182876C9830002B589 /* RealmSwift */,
+			);
 			productName = NewsRx;
 			productReference = 99220DE52876C7E20002B589 /* NewsRx.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +268,11 @@
 				Base,
 			);
 			mainGroup = 99220DDC2876C7E20002B589;
+			packageReferences = (
+				99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				99220E122876C9550002B589 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				99220E152876C9830002B589 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 99220DE62876C7E20002B589 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +289,6 @@
 			files = (
 				99220DF52876C7E30002B589 /* LaunchScreen.storyboard in Resources */,
 				99220DF22876C7E30002B589 /* Assets.xcassets in Resources */,
-				99220DF02876C7E20002B589 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +299,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99220E232876C9D40002B589 /* UserRepository.swift in Sources */,
+				99220E082876C8F20002B589 /* Tag.swift in Sources */,
+				99220E1D2876C9B20002B589 /* UserViewModel.swift in Sources */,
+				99220E2D2876CA2E0002B589 /* LoginViewController.swift in Sources */,
+				99220E042876C8BA0002B589 /* User.swift in Sources */,
+				99220E2B2876CA200002B589 /* ProfileViewController.swift in Sources */,
+				99220E312876CA580002B589 /* AppState.swift in Sources */,
+				99220E342876CC550002B589 /* NewsListView.swift in Sources */,
 				99220DED2876C7E20002B589 /* ViewController.swift in Sources */,
+				99220E212876C9CA0002B589 /* NewsRepository.swift in Sources */,
+				99220E3B2876D2B90002B589 /* e_UIImageView.swift in Sources */,
+				99220E3E2876D9A90002B589 /* UserView.swift in Sources */,
+				99220E292876CA160002B589 /* NewsViewController.swift in Sources */,
+				99220E382876CD660002B589 /* TagsView.swift in Sources */,
 				99220DE92876C7E20002B589 /* AppDelegate.swift in Sources */,
-				99220DEB2876C7E20002B589 /* SceneDelegate.swift in Sources */,
+				99220E2F2876CA380002B589 /* RegistrationViewController.swift in Sources */,
+				99220E1B2876C9A80002B589 /* NewsViewModel.swift in Sources */,
+				99220DFE2876C84B0002B589 /* MainTabBarController.swift in Sources */,
+				99220E252876C9DC0002B589 /* AuthRepository.swift in Sources */,
+				99220E062876C8CF0002B589 /* Post.swift in Sources */,
+				99220E1F2876C9BB0002B589 /* AuthViewModel.swift in Sources */,
+				99220E362876CCAB0002B589 /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		99220DEE2876C7E20002B589 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99220DEF2876C7E20002B589 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99220DF32876C7E30002B589 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +464,6 @@
 				INFOPLIST_FILE = NewsRx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +491,6 @@
 				INFOPLIST_FILE = NewsRx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +528,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		99220E122876C9550002B589 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		99220E152876C9830002B589 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99220E0A2876C9420002B589 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		99220E0C2876C9420002B589 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		99220E0E2876C9420002B589 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		99220E102876C9420002B589 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E092876C9420002B589 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		99220E132876C9550002B589 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E122876C9550002B589 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		99220E162876C9830002B589 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E152876C9830002B589 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		99220E182876C9830002B589 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99220E152876C9830002B589 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99220DDD2876C7E20002B589 /* Project object */;
 }
